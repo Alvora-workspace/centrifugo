@@ -1,7 +1,7 @@
 {
   "admin": true,
-  
   "engine": "memory",
+  "log_level": "info",
   
   "namespaces": [
     {
@@ -38,7 +38,5 @@
       "history_size": 1,
       "history_ttl": "30s"
     }
-  ],
-  
-  "log_level": "info"
+  ]
 }

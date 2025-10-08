@@ -37,5 +37,4 @@ COPY --from=builder /app/centrifugo /usr/local/bin/centrifugo
 # Copy config file
 COPY config.json ./config.json
 
-# Use environment variables via command line flags
-CMD ["sh", "-c", "centrifugo --config=config.json --admin_password=$CENTRIFUGO_ADMIN_PASSWORD --admin_secret=$CENTRIFUGO_ADMIN_SECRET --token_hmac_secret_key=$CENTRIFUGO_TOKEN_SECRET --api_key=$CENTRIFUGO_API_KEY --allowed_origins=$CENTRIFUGO_ALLOWED_ORIGINS"]
+CMD ["centrifugo"]
