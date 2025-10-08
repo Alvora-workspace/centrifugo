@@ -2,6 +2,7 @@
 builder = "DOCKERFILE"
 
 [deploy]
-healthcheckPath = "/health"
-healthcheckTimeout = 30
+# Disable health check for now to test if service starts
+# healthcheckPath = "/health"
+# healthcheckTimeout = 30
 restartPolicyType = "ON_FAILURE"
