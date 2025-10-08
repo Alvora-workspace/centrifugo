@@ -1,7 +1,13 @@
 {
-  "admin": true,
-  "engine": "memory",
-  "log_level": "info",
+  "admin": {
+    "enabled": true
+  },
+  "engine": {
+    "type": "memory"
+  },
+  "log": {
+    "level": "info"
+  },
   
   "namespaces": [
     {
