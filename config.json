@@ -8,9 +8,7 @@
   "log": {
     "level": "info"
   },
-  "allowed_origins": ["*"],
   "websocket_compression": true,
-  "cors_enabled": true,
   
   "namespaces": [
     {
