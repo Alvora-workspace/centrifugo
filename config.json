@@ -8,6 +8,8 @@
   "log": {
     "level": "info"
   },
+  "allowed_origins": ["*"],
+  "websocket_compression": true,
   
   "namespaces": [
     {
