@@ -2,7 +2,6 @@
 centrifugo
 /config.yaml
 /config.*.yaml
-/config.json
 /config.*.json
 /config.toml
 /config.*.toml
