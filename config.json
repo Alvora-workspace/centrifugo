@@ -8,7 +8,9 @@
   "log": {
     "level": "info"
   },
-  "allowed_origins": ["http://localhost:3000"],
+  "client": {
+    "allowed_origins": ["http://localhost:3000"]
+  },
   "websocket_compression": true,
   
   "namespaces": [
