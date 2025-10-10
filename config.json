@@ -17,6 +17,7 @@
     {
       "name": "notifications",
       "publish": true,
+      "subscribe": true,
       "subscribe_to_publish": false,
       "presence": false,
       "history_size": 10,
