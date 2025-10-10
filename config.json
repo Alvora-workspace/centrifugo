@@ -26,6 +26,7 @@
     {
       "name": "presence", 
       "publish": true,
+      "subscribe": true,
       "subscribe_to_publish": false,
       "presence": true,
       "join_leave": true,
@@ -35,6 +36,7 @@
     {
       "name": "office_access",
       "publish": true,
+      "subscribe": true,
       "subscribe_to_publish": false,
       "presence": false,
       "history_size": 5,
@@ -43,6 +45,7 @@
     {
       "name": "online_status",
       "publish": true,
+      "subscribe": true,
       "subscribe_to_publish": false,
       "presence": true,
       "join_leave": true,
