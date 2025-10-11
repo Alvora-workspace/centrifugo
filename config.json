@@ -20,6 +20,7 @@
       "publish": true,
       "subscribe": true,
       "subscribe_to_publish": false,
+      "allow_subscribe_for_client": true,
       "presence": false,
       "history_size": 10,
       "history_ttl": "300s"
@@ -29,7 +30,9 @@
       "publish": true,
       "subscribe": true,
       "subscribe_to_publish": false,
+      "allow_subscribe_for_client": true,
       "presence": true,
+      "allow_presence_for_subscriber": true,
       "join_leave": true,
       "history_size": 1,
       "history_ttl": "60s"
@@ -39,6 +42,7 @@
       "publish": true,
       "subscribe": true,
       "subscribe_to_publish": false,
+      "allow_subscribe_for_client": true,
       "presence": false,
       "history_size": 5,
       "history_ttl": "120s"
