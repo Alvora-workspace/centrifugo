@@ -47,6 +47,7 @@
       "publish": true,
       "subscribe": true,
       "subscribe_to_publish": false,
+      "allow_subscribe_for_client": true,
       "presence": true,
       "join_leave": true,
       "history_size": 1,
