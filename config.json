@@ -50,6 +50,7 @@
       "subscribe_to_publish": false,
       "allow_subscribe_for_client": true,
       "presence": true,
+      "allow_presence_for_subscriber": true,
       "join_leave": true,
       "history_size": 1,
       "history_ttl": "30s"
