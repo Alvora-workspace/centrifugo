@@ -13,7 +13,8 @@
   },
   "websocket_compression": true,
   
-  "namespaces": [
+  "channel": {
+    "namespaces": [
     {
       "name": "notifications",
       "publish": true,
@@ -53,5 +54,6 @@
       "history_size": 1,
       "history_ttl": "30s"
     }
-  ]
+    ]
+  }
 }
