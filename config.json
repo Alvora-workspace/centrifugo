@@ -9,7 +9,7 @@
     "level": "info"
   },
   "client": {
-    "allowed_origins": ["https://alvora-workspace-dev.up.railway.app"  ]
+    "allowed_origins": ["http://localhost:3000"]
   },
   "websocket_compression": true,
   
