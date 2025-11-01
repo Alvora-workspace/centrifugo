@@ -38,14 +38,14 @@
       "history_ttl": "60s"
     },
     {
-      "name": "office_access",
+      "name": "messaging",
       "publish": true,
       "subscribe": true,
       "subscribe_to_publish": false,
       "allow_subscribe_for_client": true,
       "presence": false,
-      "history_size": 5,
-      "history_ttl": "120s"
+      "history_size": 50,
+      "history_ttl": "600s"
     },
     {
       "name": "online_status",
